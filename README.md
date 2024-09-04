@@ -1,2 +1,16 @@
-# Clouds-DevOps
-MegaRepository for pratice in some themes of cloud technologies and services. Good luck for us)
+# Clounds and DevOps labs
+Трудяги (вот они слева направо):
+* Маркозубова Анастасия
+* Можаев Илья
+* Рожин Данил
+* Сомов Дмитрий
+## Наши лабораторки
+### DevOps
+1. Ещё пусто
+2. Ещё пусто
+3. Ещё пусто
+### Clowns
+1. Ещё пусто
+2. Ещё пусто
+### Облачные теории
+Ещё пусто
