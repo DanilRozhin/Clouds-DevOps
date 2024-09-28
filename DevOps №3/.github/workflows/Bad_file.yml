@@ -3,7 +3,7 @@ name: Bad CI/CD file
 on:
   push:
     branches:
-      - *
+      - '*'
 
 jobs:
   build:
