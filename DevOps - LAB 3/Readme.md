@@ -12,6 +12,8 @@ Let's get it started
 
 ### Bad_file
 
+![2024-10-20_23-14-57](https://github.com/user-attachments/assets/4820b2bd-75a2-41b2-b9a6-06c47ed10981)
+
 Тут есть пара не совсем удачных моментов:
 
 - Отсутствие кэширования
@@ -35,6 +37,10 @@ Let's get it started
 Если, к примеру, приложение деплоится на несколько машин/несколько окружений, то нам может быть важно, чтобы поддерживалось несколько версий Node.
 
 ### Good_file
+
+![2024-10-20_23-16-48](https://github.com/user-attachments/assets/7daca903-cab8-4b1d-b05d-c20b54685ca5)
+
+![2024-10-20_23-18-19](https://github.com/user-attachments/assets/c582da54-21c5-4e2b-a859-dc057ed013b3)
 
 Здесь все недочеты были исправлены.
 
