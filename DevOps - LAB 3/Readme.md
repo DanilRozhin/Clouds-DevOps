@@ -88,6 +88,20 @@ strategy:
 
 Теперь у нас происходит проверка на трех версиях. При помощи прописания `strategy` и `matrix` мы можем повторять выполнение строчек пайплайна для нескольких параметров.
 
+Привожу примеры запуска пайплайнов:
+
+Bad file:
+
+![2024-11-17_21-08-18](https://github.com/user-attachments/assets/b9bdebe4-4988-4524-956c-1a467af95aba)
+
+![2024-11-17_21-08-38](https://github.com/user-attachments/assets/b7201699-b8bf-4320-91f1-8c87a0f3cd0d)
+
+Good file:
+
+![2024-11-17_21-29-31](https://github.com/user-attachments/assets/6fe9fd66-068b-43b0-aeaa-135e2639f2c9)
+
+![2024-11-17_21-30-06](https://github.com/user-attachments/assets/1a106463-8782-4b45-969d-6342ed3182c0)
+
 На этом все, отчет завершен!
 
 ## Концовочка
