@@ -1,7 +1,31 @@
 # Отчет по лаборатоной работе №2.
+## Устанавливаем докер
+Для начала установим докер. Один из способов это сделать это использовать следующий набор команд:
+```
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo apt update
+apt-cache policy docker-ce
+sudo apt install docker-ce
+sudo systemctl status docker
+```
+Последней командой проверяем, что все работает корректно
+![image](https://github.com/user-attachments/assets/f936f7d8-3912-4c04-81b1-04ecb3cd45b9)
+
 # Плохие и хорошие практики при работе с Docker
 
 ## 1. Плохие практики в Dockerfile:
+```
+FROM python:3.8
+
+COPY . /app
+
+RUN pip install -r /app/requirements.txt
+
+CMD ["python", "/app/app.py"]
+```
 
 ### Ошибка №1. Использование общего базового образа
 
@@ -23,7 +47,22 @@
 Так как, если кто-то получит доступ к нему, то у него будет полный контроль над контейнером
 
 ---
+```
+FROM python:3.12-slim
 
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+RUN useradd -m appuser
+USER appuser
+
+CMD ["python", "app.py"]
+```
 ## 2. Хорошие практики в Dockerfile:
 
 ### Ошибка 1. Исправление
