@@ -12,7 +12,8 @@ sudo apt install docker-ce
 sudo systemctl status docker
 ```
 Последней командой проверяем, что все работает корректно
-![image](https://github.com/user-attachments/assets/f936f7d8-3912-4c04-81b1-04ecb3cd45b9)
+![image](https://github.com/user-attachments/assets/4b84e639-71f8-438c-860a-588b66c6fe44)
+
 
 # Плохие и хорошие практики при работе с Docker
 
