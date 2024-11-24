@@ -98,9 +98,9 @@ Bad file:
 
 Good file:
 
-![2024-11-17_21-29-31](https://github.com/user-attachments/assets/6fe9fd66-068b-43b0-aeaa-135e2639f2c9)
+![2024-11-24_20-59-46](https://github.com/user-attachments/assets/bc8e3e13-3b73-4c70-99bb-5697d1d895ee)
 
-![2024-11-17_21-30-06](https://github.com/user-attachments/assets/1a106463-8782-4b45-969d-6342ed3182c0)
+![2024-11-24_21-00-05](https://github.com/user-attachments/assets/9055d603-c5a0-43cc-a12e-c4ee8caee654)
 
 Запуски проводились в приватном репозитории.
 
