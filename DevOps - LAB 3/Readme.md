@@ -38,9 +38,9 @@ Let's get it started
 
 ### Good_file
 
-![2024-11-17_21-38-40](https://github.com/user-attachments/assets/9c7028ea-07bb-45a7-ad97-276748f4332c)
+![2024-11-24_20-54-51](https://github.com/user-attachments/assets/a5015ce3-4b52-4d52-85bd-a1d92dcfb0a8)
 
-![2024-11-17_21-38-52](https://github.com/user-attachments/assets/6b93cad8-871f-41bc-88dd-f2382d44466d)
+![2024-11-24_20-55-10](https://github.com/user-attachments/assets/ede76523-29b3-4491-9c2f-d82dc28eed26)
 
 Здесь все недочеты были исправлены.
 
