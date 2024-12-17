@@ -1,0 +1,25 @@
+server {
+        listen 80;
+        server_name project1.example;
+        return 301 https://$host$request_uri;
+}
+
+server {
+	listen 443 ssl;
+
+	root /var/www/project1;
+
+	listen [::]:443 ssl;
+        server_name project1.example;
+
+        ssl_certificate /etc/nginx/ssl/project1.crt;
+        ssl_certificate_key /etc/nginx/ssl/project1.key;
+        
+        ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
+
+	index index.html index.htm index.nginx-debian.html;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}	
+}
