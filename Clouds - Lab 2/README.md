@@ -35,15 +35,11 @@
 
 ![image](photos/1.jpg)
 
-## Алгоритм в действии 
-
-Пока без алгоритма
-
 ## Сервисы
 
 В полученной нами таблице были представлены следующие сервисы:
 
-
+Azure Data Factory - облачная служба, предоставляющая пользовательский интерфейс для создания и управления потоками данных. Она позволяет  извлекать, преобразовывать, загружать и интегрировать данные для преобразования их в полезные данные.
 
 ## Результат
 
@@ -53,4 +49,4 @@
 
 -Документация Azure: https://learn.microsoft.com/en-us/azure/
 
-
+-Провайлеры ресурсов для служб Azure: https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-services-resource-providers.md
