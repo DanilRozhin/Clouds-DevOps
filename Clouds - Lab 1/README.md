@@ -33,20 +33,26 @@
 
 После проведённой классификации были выделены следующие категории IT Tower:
 1. Cloud Services - различные облачные сервисы, обобщённая группа, включающая в себя следующие категории Service Family:
-    1. Analytics - аналитика данных (AWSCostExplorer и AmazonAthena для взаимодействия с S3)
-    2. Management - сервисы для конфигурации, управления, интеграции (AWSConfig, AWSGlue, AWSGreengrass, AmazonManagedBlockchain)
-    3. Security - сервисы для обеспечения безопасности данных и мониторинга уязвимостей (AmazonMacie)
+    1. Analytics - аналитика данных:
+       - AWSCostExplorer - сервис, обеспечивающий просмотр, анализ и прогнозирование стоимости и использования приложений.
+       - AmazonAthena - сервис для быстрого взаимодействия с AmazonS3, анализирующий работу облака с помощью SQL-запросов.
+    2. Management - конфигурация, управление, интеграция:
+       - AWSConfig - позволяет настраивать конфигурацию ресурсов и параметров в аккаунте AWS, используется во многих облачных структурах, например AmazonEC2.
+       - AWSGlue - интегрирование данных многих сервисов и приложений для централизованной настройки, анализа, обучения.
+       - AWSGreengrass - управление приложениями с большим функционалом в области машинного обучения и анализа данных.
+       - AmazonManagedBlockchain - 
+    3. Security - обеспечение безопасности данных и мониторинг уязвимостей (AmazonMacie)
     4. Virtualization - виртуализация приложений и сайтов (AmazonAppStream)
 2. Compute - обширная группа, описывающая построение программного обеспечения, обучение и вычисления, включает следующие категории Service Family:
     1. Artificial Intelligence - встраиваемый искусственный интеллект (на примере сервиса создания чат-ботов AmazonLex)
-    2. Building - постреоние и создание экземпляров, контейнеров, балансировщиков и т.п. (AmazonLightsail)
+    2. Building - построение и создание экземпляров, контейнеров, балансировщиков и т.п. (AmazonLightsail)
     3. Machine Learning - использование и обучение моделей машинного обучения (ныне не поддерживаемый AmazonML)
-3. Database - сервисы создания, поддержки и мониторинга баз данных (AmazonNeptune)
-4. Networking - сервисы, отвечающие за налаживание, настройку соединений и ускорение работы приложений (AWSGlobalAccelerator и APNFee)
+3. Database - создание, поддержка и мониторинг баз данных (AmazonNeptune)
+4. Networking - налаживание, настройка соединений и ускорение работы приложений (AWSGlobalAccelerator и APNFee)
 5. Storage - облачные хранилища данных (здесь только популярный AmazonS3)
 
 ### Результат:
-[Данные после иерархической категоризации сервисов](https://docs.google.com/spreadsheets/d/1IsCkXWuZLjNZ-NoGRZggIQRmoKE-YlJYAMAW_7VNEvY/edit?usp=sharing)
+[Данные после иерархической категоризации сервисов](https://docs.google.com/spreadsheets/d/1OciSo3spFajpkPfUuXQp2YEgqb4DIa1CzBEFdkr6a5I/edit?usp=sharing)
 
 ![Таблица](https://github.com/DanilRozhin/Clouds-DevOps/blob/main/Clouds%20-%20Lab%201/result.jpg)
 
