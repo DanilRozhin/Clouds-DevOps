@@ -14,6 +14,7 @@
 3. Сохранить файл и залить в соответствующую папку на Google Drive.
 
 ### Используемые ресурсы:
+- Apptio TBM Unified Model ([ATUM](https://www.apptio.com/)) - стандартная модель категоризации от большего к меньшему
 - [Официальная документация Microsoft Azure](https://learn.microsoft.com/en-us/azure/)
 - GitHub: [Провайлеры ресурсов для служб Azure](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-services-resource-providers.md)
 
