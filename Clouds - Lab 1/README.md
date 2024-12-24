@@ -13,7 +13,13 @@
 3. Сохранить файл и залить в соответствующую папку на Google Drive.
 
 ### Результат:
-[Данные после иерархической категоризации сервисов](https://docs.google.com/spreadsheets/d/108oxiTfvgqhvvVVXgDOfThVr5FYQK33rnz7cEErIzzk/edit?usp=sharing)
+[Данные после иерархической категоризации сервисов](https://docs.google.com/spreadsheets/d/1IsCkXWuZLjNZ-NoGRZggIQRmoKE-YlJYAMAW_7VNEvY/edit?usp=sharing)
+
+### Используемые ресурсы:
+- Apptio TBM Unified Model ([ATUM](https://www.apptio.com/)) - стандартная модель категоризации от большего к меньшему
+- Официальная документация Amazon Web Services ([AWS](https://docs.aws.amazon.com/))
+- Google (ChatGPT не помог вообще никак)
+- StackOverflow
 
 ### Ход работы
 
@@ -23,3 +29,19 @@
 - Service Type - общий тип используемого сервиса или услуги;
 - Service Sub Type - более углублённый тип, показывающий специфику для данного сервиса;
 - Service Usage Type - сценарий использования сервиса или услуги в данном случае.
+
+Необходимо также обратить внимание на вспомогательные столбцы исходной таблицы. Для сервисов с указанием Tax% (налог) старшие уровни классификации аналогичны уровням для того же сервиса без такой пометки, а Service Sub Type чаще всего указывается как Additional Cost, за исключением отдельных детально категоризованных сервисов. Ячейки стобца Operation указывают детальные параметры использования некоторых сервисов, что влияет на Service Usage Type.
+
+После проведённой классификации были выделены следующие категории IT Tower:
+- Cloud Services
+  - Analytics
+  - Management
+  - Security
+  - Virtualization
+- Compute
+  - Artificial Intelligence
+  - Building
+  - Machine Learning
+- Database
+- Networking
+- Storage
