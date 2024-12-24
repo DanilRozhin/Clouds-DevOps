@@ -13,7 +13,7 @@
 3. Сохранить файл и залить в соответствующую папку на Google Drive.
 
 ### Исходные данные:
-Таблица до анализа:
+Таблица до проведения анализа:
 
 ![Исходная таблица](https://github.com/DanilRozhin/Clouds-DevOps/blob/main/Clouds%20-%20Lab%201/initial.jpg)
 
