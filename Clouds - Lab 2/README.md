@@ -14,11 +14,8 @@
 3. Сохранить файл и залить в соответствующую папку на Google Drive.
 
 ### Используемые ресурсы:
-- Документация Azure: https://learn.microsoft.com/en-us/azure/
-- Провайлеры ресурсов для служб Azure: https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-services-resource-providers.md
-Слепок данных биллинга от провайдера.
-
-![image](photos/1.jpg)
+- [Официальная документация Microsoft Azure](https://learn.microsoft.com/en-us/azure/)
+- [Провайлеры ресурсов для служб Azure](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-services-resource-providers.md)
 
 ### Ход работы
 
