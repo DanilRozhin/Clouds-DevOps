@@ -14,6 +14,7 @@
 
 ### Исходные данные:
 Таблица до анализа:
+
 ![Исходная таблица](https://github.com/DanilRozhin/Clouds-DevOps/blob/main/Clouds%20-%20Lab%201/initial.jpg)
 
 ### Используемые ресурсы:
