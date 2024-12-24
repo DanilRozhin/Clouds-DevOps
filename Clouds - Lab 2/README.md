@@ -15,7 +15,7 @@
 
 ### Используемые ресурсы:
 - [Официальная документация Microsoft Azure](https://learn.microsoft.com/en-us/azure/)
-- [Провайлеры ресурсов для служб Azure](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-services-resource-providers.md)
+- GitHub: [Провайлеры ресурсов для служб Azure](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-services-resource-providers.md)
 
 ### Ход работы
 
