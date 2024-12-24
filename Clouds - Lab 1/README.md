@@ -14,7 +14,7 @@
 
 ### Исходные данные:
 Таблица до анализа:
-![Исходная таблица](https://github.com/DanilRozhin/Clouds-DevOps/blob/main/Clouds%20-%20Lab%201/result.jpg)
+![Исходная таблица](https://github.com/DanilRozhin/Clouds-DevOps/blob/main/Clouds%20-%20Lab%201/initial.jpg)
 
 ### Используемые ресурсы:
 - Apptio TBM Unified Model ([ATUM](https://www.apptio.com/)) - стандартная модель категоризации от большего к меньшему
